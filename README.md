@@ -10,16 +10,6 @@
 * D3
 * CCXT Cryptocurrency Exchange Trading Library
 ### Visual Demo of prototypes
-
-
-
-####  
-    Prototype 1
-
-
-
-
-
 #### 
 
     Prototype 2
