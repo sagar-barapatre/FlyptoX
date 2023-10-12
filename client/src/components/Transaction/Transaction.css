@@ -1,0 +1,58 @@
+.transaction-container {
+  /* height: 25vh; */
+  width: 100%;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-header {
+  border-bottom: 1px solid white;
+}
+
+.ul-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+/* .ul-list:li:last-child{
+
+} */
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  transition-duration: 2s;
+}
+
+/* .list-item.[class^='trade-active'] {
+  transition-duration: 2s;
+} */
+
+.has-failure {
+  color: #d9534f;
+}
+
+.has-success {
+  color: #5cb85c;
+}
+
+[class^='trade-active'] {
+  transition-duration: 2s;
+}
+
+.trade-active-buy {
+  background: green;
+  /* transition-duration: 2s; */
+}
+
+.trade-active-sell {
+  background: #e00000;
+  /* transition-duration: 2s; */
+}

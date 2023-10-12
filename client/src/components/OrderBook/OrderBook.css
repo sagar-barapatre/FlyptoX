@@ -1,0 +1,89 @@
+.order-book-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.order-book-title {
+  border-bottom: 1px solid white;
+}
+
+.has-failure {
+  color: #d9534f;
+}
+
+.has-success {
+  color: #5cb85c;
+}
+
+.order-book-ask-bids {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.order-book-half {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.price-amt-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.type-header {
+  border-bottom: 1px solid white;
+  width: 100%;
+  text-align: center;
+}
+
+.order-book-header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.price-amt-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.price-amt-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+}
+
+.item-bid {
+  background: green;
+  transition-duration: 2.5s;
+}
+
+.item-ask {
+  background: #e00000;
+  transition-duration: 1s;
+}
+
+.price-amt-ul:li:first-child {
+  border-bottom: none;
+}

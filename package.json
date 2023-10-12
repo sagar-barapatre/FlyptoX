@@ -1,0 +1,37 @@
+{
+  "name": "projectx",
+  "version": "1.0.0",
+  "description": "Cryptocurrency Trading Exchange ## 3 Part Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server \" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacwutang/CryptoEngineX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacwutang/CryptoEngineX/issues"
+  },
+  "homepage": "https://github.com/Jacwutang/CryptoEngineX#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.2",
+    "knex": "^0.14.6",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.4"
+  }
+}
