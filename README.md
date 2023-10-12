@@ -9,11 +9,6 @@
 * React
 * D3
 * CCXT Cryptocurrency Exchange Trading Library
-### Visual Demo of prototypes
-#### 
-
-    Prototype 2
-   ![demonstration](http://g.recordit.co/tSYUM18nM8.gif)
 
 
 ### Upcoming Features (Stay Tuned)
